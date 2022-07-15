@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { deepPurple } from '@material-ui/core/colors';
-
+import cm from '../../images/keyb.png';
 export default makeStyles((theme) => ({
   appBar: {
     borderRadius: 0,
@@ -10,6 +10,7 @@ export default makeStyles((theme) => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '10px 50px',
+    //backgroundImage:cm; 
   },
   heading: {
   
